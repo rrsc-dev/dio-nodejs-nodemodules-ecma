@@ -2,5 +2,5 @@ async function connectToDatabase(databaseName) {
     console.log(`Conectado ao banco: ${databaseName}`);
 }
 
-// module.exports = connectToDatabase;
+// equivalente ao module.exports = connectToDatabase;
 export default connectToDatabase;
