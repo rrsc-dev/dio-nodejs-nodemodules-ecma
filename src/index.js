@@ -2,4 +2,7 @@
 // import * as database from "./utils/database.js"; // Importa tudo que foi exportado pelo arquivo database.js
 import { connectToDatabase, databaseType } from "./utils/database.js";
 
+import { getDataFromAPI } from './utils/api.js';
+
 connectToDatabase("Teste");
+getDataFromAPI();
